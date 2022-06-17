@@ -281,6 +281,11 @@ button.btn:hover {
     color: var(--text-gray);
 }
 
+.btn.btn-blog:hover {
+    background: var(--sky2);
+    color: var(--white);
+}
+
 /*------------------ Blog Carousel ------------------*/
 
 /*------------------ Site Content -------------------*/
