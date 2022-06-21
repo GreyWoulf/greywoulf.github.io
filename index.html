@@ -52,10 +52,10 @@
                         <a href="#">Archive</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Pages</a>
+                        <a href="#pagenum">Pages</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Contact Us</a>
+                        <a href="contact.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +79,7 @@
             <div class="site-background" data-aos="fade-up" data-aos-delay="100">
                 <h3>Learning and Travel</h3>
                 <h1>Welcome to the Joy of Creation</h1>
-                <button class="btn">Explore</button>
+                <button onclick="location.href='#home'"class="btn">Explore</button>
             </div>
         </section>
 
@@ -88,7 +88,7 @@
         <!-------------- Blog Carousel ------------------>
 
         <section>
-            <div class="blog">
+            <div class="blog" id="home">
                 <div class="container">
                     <div class="owl-carousel owl-theme blog-post">
                         <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
@@ -232,7 +232,7 @@
                             <button class="btn post-btn">Read More &nbsp;<i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
-                    <div class="pagination flex-row">
+                    <div class="pagination flex-row" id="pagenum">
                         <a href="#"><i class="fas fa-chevron-left"></i></a>
                         <a href="#" class="pages">1</a>
                         <a href="#" class="pages">2</a>
