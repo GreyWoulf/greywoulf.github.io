@@ -208,7 +208,6 @@ i:hover {
 #contact-pic>.site-background>button.btn {
     background: #50A7C2;
     color: var(--white);
-    margin: 15.0rem;
 }
 
 #contact-pic>.site-background>.btn:hover {
