@@ -187,6 +187,7 @@ i:hover {
     justify-content: center;
 }
 
+/*---------- contact page background picture -----------*/
 #contact-pic{
     background: url(../woulves-den/assets/mountain_landscape23_generated.jpg);
     background-size: cover;
@@ -194,6 +195,17 @@ i:hover {
     display: flex;
     justify-content: center;
 }
+/*---------- contact page background picture -----------*/
+/*---------- blog1 page background picture -----------*/
+#blog-pic {
+    background: url(../woulves-den/assets/vecteezy_digital-cyberspace-with-digital-data-network-connections_1971012.jpg);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center; 
+}
+/*----------  blog1 page background picture -----------*/
+
 
 .site-background {
     padding-top: 10rem;
