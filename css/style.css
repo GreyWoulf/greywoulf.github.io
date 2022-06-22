@@ -205,6 +205,15 @@ i:hover {
     justify-content: center; 
 }
 /*----------  blog1 page background picture -----------*/
+/*----------  archive page background picture -----------*/
+#archive-pic {
+    background: url(../woulves-den/assets/vecteezy_forest-background-with-wild-deer-of-trees_6133427.jpg);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center; 
+}
+/*----------  archive page background picture -----------*/
 
 
 .site-background {
@@ -754,8 +763,20 @@ footer>.move-up span:hover {
     font-size: 18px;
 }
 
-
 /*--------------- Contact Form --------------*/
+/*--------------- Archive Page --------------*/
+
+#archive-pic .site-background h3 {
+    color: #0f0f0f;
+}
+
+#archive-pic .site-background h1 {
+    color: #0f0f0f;
+}
+
+/*--------------- Archive Page --------------*/
+
+
 
 
 /*----------- Viewport less than or equal to 750px ------------*/
