@@ -776,6 +776,27 @@ footer>.move-up span:hover {
 
 /*--------------- Archive Page --------------*/
 
+/*--------------- Blog1 Page---------------- */
+
+.heading h3, .heading h1{
+    font-family: var(--Bebas_Neue);
+    color: var(--text-gray);
+}
+
+.post-title #data {
+    font-family: var(--Meriedna);
+    color: #0f0f0f;
+}
+
+blockquote {
+    font-size: 1.125em;
+    border-left: .25em solid #acaeab;
+    padding: 1em 1em 1em 1.5em;
+    background: #edefec;
+    border-radius: .25em;
+}
+
+/*--------------- Blog1 Page---------------- */
 
 
 
