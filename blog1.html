@@ -161,7 +161,7 @@
                             <a href="blog1.html">What is a Network?
                             </a>
                             <p id="data"> Let us begin by redefining what a network is. To understand networking 
-                                we have to break it down its defining a components. So with that said,
+                                we have to break it down its defining components. So with that said,
                                 what is a network? 
                                 <br>
                                 <blockquote>
@@ -190,12 +190,15 @@
                                 <br>
                                 <hr>
                                 <br>
+                        
                         <div class="post-title">
                                 <a href="blog1.html">Client and Server</a>
                             <p id="data">
                                 Okay, but wait you are probably thinking what are all those network devices that were just mentioned.
                                 Well you are probably familiar with a router and a printer; moreso printer than router but we'll get
-                                more into that one later along with others. I want to focus on the client and the server. Those are key in networking.
+                                more into that one later along with others. I want to focus on the client and the server, which are 
+                                also referred to as endpoints or endhosts. Those are key in networking. You will see those words
+                                interchangeably throughout this reading.
                                 <br><br>
                                 A client is a device that access a service made available by a server. So let's take your computer 
                                 for example. Right now your computer is accessing this blog made avaible by a web server, thus
@@ -236,39 +239,113 @@
                         <div class="post-title">
                             <a href="blog1.html">Switches
                             </a>
-                            <p id="data"> Let us begin by redefining what a network is. To understand networking 
-                                we have to break it down its defining a componenets. So with that said,
-                                what is a network? <br><br>
-                                A network is a digital telecommunications network which allows nodes to share resources.
-                                <br><br>
-                                Okay, so that definition was a lot to unwrap, so let's break it down even further. Look at the
-                                word telecomunnications. Well telecommunications allows you to communicate over a distance
-                                via cable, phone, telegraph or broadcasting. Okay that was an easy one. Let's look at another
-                                word, nodes. What the heck is that? A node in networking is the connection point among network 
-                                devices such as routers, printers, clients or servers that can receive and send data from one endpoint 
-                                to the other. So, so far we know a network is digital form of communication over a distance that
-                                has connection points among other network devices to share resources.
-                                <br><br>
-                                Okay, but wait you are probably thinking what are all those network devices that were just mentioned.
-                                Well you are probably familiar with a router and a printer; moreso printer than router but we'll get
-                                more into that one later along with others. I want to focus on the client and the server. Those are key in networking.
-                                A client is a device that access a service made available by a server. So let's take your computer 
-                                for example. Right now your computer is accessing this blog made avaible by a web server, thus
-                                making your computer a client. So things like computers, phones, etc are your typical clients in networking. 
-                                A server is a device that provides functions or services for clients.
-                                So, say you wanted to watch a youtube video, youtube provides the cloud service that delivers videos
-                                to your device aka client. Let's do another client server example. Let's say you are at your computer
-                                and someone from a different office requested a file from you from their computer. Who is the client 
-                                and server in this scenario? Well your computer is the client and the other computer is the server. 
-                                Since your computer is now the one sending data which is the file it is now considered a server, 
-                                while the other computer is a client. A client can be a server as long as it provides a function or 
-                                service to a client. Similarly the same device can be a client in some situations, and a server in 
-                                other situations like when you are using your computer to watch youtube videos.
-
-                                So with that all that in mind we can visualize a basic network. Two PCs or clients can be connected 
-                                together via a cable creating a network and essentially have a conversation with each other. The 
-                                examples above are considered more advanced networking systems. 
-                                 
+                            <p id="data"> 
+                                The next network device we are going to talk about are switches. A switch provides local 
+                                connectivity to hosts within the same LAN (Local Area Network). LANs are spaces such as 
+                                    <strong>
+                                    Home Office,
+                                    Local Office, and
+                                    Home.
+                                    </strong>
+                                Switches have many network interfaces/ports for end hosts to connect to. There are typically
+                                24 connection ports on a switch.
+                            </p>
+                        <div class="post-image" data-aos="zoom-in" data-aos-delay="200">
+                            <div>
+                                <img src="./woulves-den/assets/cisco_switch.jpg" class="img" alt="blog1">
+                            </div>
+                            
+                                        <!-- <div class="post-info flex-row">
+                                            <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                            <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;June 15, 2022</span>
+                                            <span>2 Comments</span>
+                                        </div> -->
+                        </div>
+                                <em>Cisco Switch</em>
+                                <br>
+                                <br>
+                                <br>
+                                Switches only work in a local setting and cannot provide connectivity between two Local
+                                Area Networks such as a Home and an Office Space over the internet.
+                                Looking at the below visual, you can see the switch can only provide 
+                                network connectivity to the hosts that are connected to it. There is 
+                                no transmission of data that can happen between switches over the internet. 
+                                <br>
+                                <br>
+                        <div class="post-image" data-aos="zoom-in" data-aos-delay="200">
+                                <div>
+                                    <img src="./woulves-den/assets/switches.png"class="img" alt="blog1">
+                                </div>
+                                    <!-- <div class="post-info flex-row">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;June 15, 2022</span>
+                                    <span>2 Comments</span>
+                                    </div> -->
+                        </div>  
+                                <br>
+                                <hr>
+                        <div class="post-title">
+                                <a href="blog1.html">Routers</a>
+                                <p id="data">
+                                    In this section we are returning back to a network device that we mentioned briefly before; routers.
+                                    A router you have seen before, they have fewer interfaces than a switch and you use one in your house 
+                                    all the time to connect to servers and send/receive data over the Internet. Routers are used to provide connectivity between 
+                                    two LANs thus creating a WAN (Wide Area Network). 
+                                </p>
+                        <div class="post-image" data-aos="zoom-in" data-aos-delay="200">
+                                <div>
+                                    <img src="./woulves-den/assets/routers.png"class="img" alt="blog1">
+                                </div>
+                                    <!-- <div class="post-info flex-row">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;June 15, 2022</span>
+                                    <span>2 Comments</span>
+                                    </div> -->
+                        </div> 
+                        <br>
+                        <hr>
+                        <br>     
+                        <div class="post-title">
+                                <a href="blog1.html">Firewalls</a>
+                                <p id="data">
+                                    The final network device that we are going to discuss today are firewalls. A firewall monitors
+                                    and controls network traffic based on configured rules. You explicitly configure which network
+                                    traffic should be allowed in your network and what should not. 
+                                    <br>
+                                    Firewalls can be placed inside the network, or outside of the network. These placements allow
+                                    traffic to be filtered either before it reaches the router or after it has passed through the 
+                                    router. In some cases you might have firewalls both inside and outside of the network.
+                                    Just like any technology there are more advance options. A firewall comes in many different and/or advanced
+                                    filtering capabilities. The firewalls that include more modern and advance filtering capabilities 
+                                    are known as <em>"Next-Generation Firewalls."</em> 
+                                </p>
+                        </div>
+                        <div class="post-image" data-aos="zoom-in" data-aos-delay="200">
+                                <div>
+                                    <img src="./woulves-den/assets/firewall.png"class="img" alt="blog1">
+                                </div>
+                                    <!-- <div class="post-info flex-row">
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;June 15, 2022</span>
+                                    <span>2 Comments</span>
+                                    </div> -->
+                        </div> 
+                        <br>
+                        <hr>
+                        <br>
+                        <div class="post-title">
+                            <a href="blog1.html">Recap</a>
+                            <p id="data">
+                                Today we defined a network and covered the core devices that make up a network. With all this 
+                                information in mind, take a look at your own home/workspace setup and see if you can identify 
+                                any of the network devices that we went over today. I hope you learned a lot and was able to
+                                begin to understand at some fundamentals of a network. If you liked this post feel free to look 
+                                at others that I have posted and will be posting soon!
+                            </p>      
+                        </div>             
+                                    
+                        </div>
+                                      
                             </p>
                             <!-- <button class="btn post-btn">Read More &nbsp;<i class="fas fa-arrow-right"></i></button> -->
                         </div>
