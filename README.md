@@ -214,6 +214,18 @@ Project Link: [https://github.com/greywoulf/greywoulf.github.io](https://github.
 
 
 
+
+
+<!-- Github Stats  -->
+
+## Github Stats
+[![Anurag’s github stats](https://github-readme-stats.vercel.app/api?username=greywoulf)](https://github.com/greywoulf)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=greywoulf&layout=compact)](https://github.com/greywoulf)
+
+
+
+
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
