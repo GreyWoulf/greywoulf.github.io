@@ -197,7 +197,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Image resource contributions under the Vecteezy License. See `LICENSE.txt` for more information.
+Image resource contributions under the Vecteezy License. See `Vecteezy-License-Information.pdf` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
