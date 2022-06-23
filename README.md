@@ -216,7 +216,7 @@ Project Link: [https://github.com/greywoulf/greywoulf.github.io](https://github.
 
 
 
-<!-- Github Stats  -->
+<!-- GitHub Stats  -->
 
 ## Github Stats
 [![Anurag’s github stats](https://github-readme-stats.vercel.app/api?username=greywoulf)](https://github.com/greywoulf)
