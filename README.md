@@ -97,7 +97,7 @@
 * [HTML5](https://html5.org/)
 * [JavaScript](https://javascript.org/)
 * [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/)
-* [AOS](https://michalsnik.github.io/aos/)
+* [AOS: Animate On Scroll](https://michalsnik.github.io/aos/)
 * [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
